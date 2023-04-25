@@ -1,12 +1,12 @@
-p {
+.p1 {
     background-color: black;
     color: white;
  }
 
- .cont{
+ .mycontact {
     background-color: blue;
  }
 
- #about{
+ #myabout {
    background-color: orange;
  }
