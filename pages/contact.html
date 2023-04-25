@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="all_css\styles.css">
+</head>
+<body class="cont">
+    <h2>My Contact Details</h2>
+    <Address>32, Kajola street, Iyana Iyesi, Kajola Street</Address>
+    <p>08020557531</p>
+    <a href="mailto:abidemiadelani@gmail.com">abidemiadelani@gmail.com</a>
+    <hr>
+    <form action="mailto:abidemiadelani@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="fmale" name="gender" value="Female">
+    <label for="fmale">Female</label><br>
+    <input type="radio" id="Notsay" name="gender" value="Notsaying">
+    <label for="Notsay">Not Saying</label><br>
+    <p>Do you want to sign up for the email list?</p>
+    <input type="checkbox" id="mailist" name="mailist" value="Yes">
+    <label for="Mailist">Yes</label><br>
+    <label for="cars">Favourite Car:</label><br>
+    <select id="cars" name="cars">
+    <option value="benz">Benz</option>
+    <option value="feraari">Feraari</option>
+    <option value="camry">Camry</option>
+    <option value="volvo">Volvo</option>
+  </select><br>
+   <textarea name="message" rows="10" cols="30">
+    Leave a message.
+  </textarea><br>
+  <input type="submit" value="Send"> <br>
+
+</body>
+</html>
